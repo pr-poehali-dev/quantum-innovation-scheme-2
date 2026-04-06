@@ -2,10 +2,9 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/e23833e4-9ffb-4e56-ab48-ddf94892dbb2/files/8c19ad8a-2b6d-4b64-8f3d-f05cbe356c76.jpg',
+  'https://cdn.poehali.dev/projects/e23833e4-9ffb-4e56-ab48-ddf94892dbb2/files/cc3b3184-1692-4f22-83cd-8cc7b0db2265.jpg',
+  'https://cdn.poehali.dev/projects/e23833e4-9ffb-4e56-ab48-ddf94892dbb2/files/757d9cc4-93a3-4dff-babc-32e420f336f1.jpg',
 ];
 
 export default function HeroSection() {
@@ -55,8 +54,8 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
-                  src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
-                  alt="Креативный специалист"
+                  src="https://cdn.poehali.dev/projects/e23833e4-9ffb-4e56-ab48-ddf94892dbb2/files/d642fd53-3d6c-458c-b070-5386e2248e00.jpg"
+                  alt="Учитель начальных классов"
                   className="h-full w-full object-cover"
                 />
               </div>
